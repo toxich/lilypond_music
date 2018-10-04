@@ -136,15 +136,17 @@ chorusAfterThreeLyrics = \lyricmode {
 	rei,         | da que -- sto    | 
 }
 
+tripl =    \times 2/3 { g8 f ees }
+endTripl = \times 2/3 { g8 f ees) }
 codaMusic = \relative c' {
 	\global
    	g'4. f8(~ f4          | d'4. e8~ e4 | \bar "||" \key f \minor
-   	                                      f4) r8 f8 f f | f f f4 g | \mBreak
-   	aes4 r4 c,8 c         | c4 c des    | ees r4 r4     | c c bes  | \mBreak
-   	bes8 aes4 aes8(~ aes4 | f'2.)       | r4 r4 f8 f    | f4 f g   | \mBreak
-   	aes r c,8 c           | c4 c f      | ees2.~        | ees~     | \mBreak
-   	ees                   | c4 aes aes  | f'2( f4       | f2 f4    | \mBreak
-   	f2 f4) | f2. | r | r | \mBreak
+   	                                      f4) r8 f8 f f | f f f4 g  | \mBreak
+   	aes4 r4 c,8 c         | c4 c des    | ees r4 r4     | c c bes   | \mBreak
+   	bes8 aes4 aes8(~ aes4 | f'2.)       | r4 r4 f8 f    | f4 f g    | \mBreak
+   	aes r c,8 c           | c4 c f      | ees2.~        | ees~      | \mBreak
+   	ees                   | c4 aes aes  | f'2( \tripl   | f2 \tripl | \mBreak
+   	f2 \endTripl | f2. | r | r | \mBreak
 }
 codaLyrics = \lyricmode {
 	ma -- re __    |                  | E per la  | vi -- ta che non |
