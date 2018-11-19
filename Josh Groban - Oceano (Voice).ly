@@ -24,11 +24,11 @@ global = { \time 3/4 \key f \major }
 
 verseOneMusic = \relative c' {
 	\global
-	f8 f4 f8( f8[) f8]          | e4 d c                  | f8 f4 f8( f[) f]     | e4 d c        | \mBreak
-    aes'8 aes4 aes8( aes[) aes] | bes4 ees, g             | f2.                  | r2.           | \mBreak
-    g8 a4 a8( a[) a]            | g4 f f                  | g8 a4 a8( a[) a]     | c4 f, f       | \mBreak
-    aes4 aes aes                | g8 f8 ees4 g            | f2.                  | r4 r4 f(      | \mBreak
-    g2 ees4                     | f2.)                    | r2. | r2. | \mBreak
+	f8 f4 f4 f8          | e4 d c       | f8 f4 f4 f8 | e4 d c   | \mBreak
+    aes'8 aes4 aes4 aes8 | bes4 ees, g  | f2.         | r2.      | \mBreak
+    g8 a4 a4 a8          | g4 f f       | g8 a4 a4 a8 | c4 f, f  | \mBreak
+    aes4 aes aes         | g8 f8 ees4 g | f2.         | r4 r4 f( |
+    g2 ees4              | f2.)         | r2. | r2. | \mBreak
 }
 verseOneLyrics = \lyricmode {
 	Pio -- ve sul -- l'o        | ce -- a -- no           | Pio -- ve sul -- l'o | ce -- a -- no |
@@ -39,14 +39,14 @@ verseOneLyrics = \lyricmode {
 
 verseTwoMusic = \relative c' {
 	\global
-	f8  f4 f8( f8[) f8]        | e4 d c         | f8 f4 f8( f[) f] | e4 d c  | \mBreak
-    aes'8 aes aes4 aes         | bes4 ees, g    | f2.              | r2.     | \mBreak
-    g8 a4 a8( a[) a]           | g4 f f         | g8 a4 a8( a[) a] | c4 f, f | \mBreak
-    aes8 aes4 aes8( aes[) aes] | g4 f4 ees8( g) | f2.              | r2.     | \mBreak
+	f8  f4 f4 f8        | e4 d c         | f8 f4 f4 f8 | e4 d c  | \mBreak
+    aes'8 aes aes4 aes  | bes4 ees, g    | f2.         | r2.     | \mBreak
+    g8 a4 a4 a8         | g4 f f         | g8 a4 a4 a8 | c4 f, f | \mBreak
+    aes8 aes4 aes4 aes8 | g4 f4 ees8( g) | f2.         | r2.     | \mBreak
 % Remo, tremo, sento
-   	bes2.   | c      | aes   | bes          | \mBreak
+   	bes2.   | c      | aes   | bes          |
 	r4 e,2( | e2.)   | d(    | d4) r4 r8 f8 | \mBreak
-	bes2.   | c2 c4  | aes2. | bes2 r8 e,8  | \mBreak
+	bes2.   | c2 c4  | aes2. | bes2 r8 e,8  |
 	f2.~(   | f2 g4) | g2.(  | g2) r4       | \mBreak
 }
 verseTwoLyrics = \lyricmode {
@@ -67,19 +67,19 @@ chorusMusic = \relative c' {
 	c4 r4 a8 a      | a4 a g   | g8( f4) f8( f4)    | d'2.         | \mBreak
 	r4 r8 d8 d d    | d d d4 e | f r4 a,8 a         | a a a4 b     | \mBreak
 	c4 r4 a8 a      | a4 a g   | g8( f4) f8( \( f4) | d'2.(        | \mBreak
-	d               | d)       | a(                 | a4) \) r4 r4 | \mBreak
+	d               | d)       | a(                 | a4) \) r4 r4 |
 	% Ah___
 	c2.~           | c~       | c4 r4 r4        | r2.    | \mBreak
 	r4 r8 d8 d[ d] | d d d4 e | f r4 a,8 a      | a4 a d | \mBreak
 	c4 r4 c8 c     | c4 c c   | b( a8)[ b]~ b4~ | b2.~   | \mBreak
 	%                           Oh__
-	b~             | b4 r4 r4 | g'2.(           | f      | \mBreak
+	b~             | b4 r4 r4 | g'2.(           | f      |
 	%                           Oh__
 	ees            | d)       | g~              | g~   | g~  | \mBreak
 	%                eh__
 	g              | fis~     | fis~            | fis~ | fis | \mBreak
 	% pause before 3rd verse
-	r | r | r | r | r | r | \mBreak
+	r | r | r | r | r | r |
 	r | r | r | r | r | r | \mBreak
 }
 chorusOneLyrics = \lyricmode {
@@ -99,12 +99,12 @@ chorusOneLyrics = \lyricmode {
 
 verseThreeMusic = \relative c' {
 	\global
-	f8 f4 f8( f8[) f8]         | e4 d c         | f8 f4 f8( f[) f] | e4 d c8 f8  | \mBreak
-    aes8 aes aes4 aes         | bes4 ees, g    | f2.              | r       | \mBreak
-    g8 a4 a8( a[) a]           | g4 f f         | g8 a4 a8( a[) a] | c4 f, f | \mBreak
-    aes8 aes4 aes8( aes[) aes] | g4 f4 ees8( g) | f2.              | r       | \mBreak
+	f8 f4 f4 f8         | e4 d c         | f8 f4 f4 f8 | e4 d c8 f8  | \mBreak
+    aes8 aes aes4 aes   | bes4 ees, g    | f2.         | r           | \mBreak
+    g8 a4 a4 a8         | g4 f f         | g8 a4 a4 a8 | c4 f, f     | \mBreak
+    aes8 aes4 aes4 aes8 | g4 f4 ees8( g) | f2.         | r           | \mBreak
 % Remo, tremo, sento
-   	bes2.   | c      | aes   | bes         | \mBreak
+   	bes2.   | c      | aes   | bes         |
 	r4 e,2( | e2.)   | f(    | f4) r4 r4   | \mBreak
 	bes2.   | c2 c4  | aes2. | bes2 r8 e,8 | \mBreak
 	f2.~(   | f2 g4) | g2.(  | g2) r4      | \mBreak
