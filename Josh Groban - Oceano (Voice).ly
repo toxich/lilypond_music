@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.20.0"
 
 \header {
 	title = "Oceano"
@@ -16,7 +16,7 @@
 %   source = "urtext"
 }
 
-% \paper{ ragged-right=##t } 
+% \paper{ ragged-right=##t }
 
 mBreak = { \break }
 
@@ -34,12 +34,12 @@ verseOneLyrics = \lyricmode {
 	Pio -- ve sul -- l'o        | ce -- a -- no           | Pio -- ve sul -- l'o | ce -- a -- no |
 	Pio -- ve sul -- l'o        | mia_j den ti            | ta                   |               |
 	Lam -- pi sul -- l'o        | ce -- a -- no           | Lam -- pi sul -- l'o | ce -- a -- no |
-	squar -- ci di              | lu -- mi -- no -- si -- | ta                   | ah __         |
+	squar -- ci di              | lu -- mi -- no -- si -- | ta                     ah __         |
 }
 
 verseTwoMusic = \relative c' {
 	\global
-	f8  f4 f4 f8        | e4 d c         | f8 f4 f4 f8 | e4 d c  | \mBreak
+    f8  f4 f4 f8        | e4 d c         | f8 f4 f4 f8 | e4 d c  | \mBreak
     aes'8 aes aes4 aes  | bes4 ees, g    | f2.         | r2.     | \mBreak
     g8 a4 a4 a8         | g4 f f         | g8 a4 a4 a8 | c4 f, f | \mBreak
     aes8 aes4 aes4 aes8 | g4 f4 ees8( g) | f2.         | r2.     | \mBreak
@@ -51,12 +51,12 @@ verseTwoMusic = \relative c' {
 }
 verseTwoLyrics = \lyricmode {
 	For -- se la'in A -- | me -- ri -- ca,_I   | ven -- ti del pa --     | ci fi co, __          |
-	sco -- pro -- no le  | sue_im men -- si -- | ta                      | | 
+	sco -- pro -- no le  | sue_im men -- si -- | ta                      | |
 	Le mie ma -- ni      | strin -- go -- no   | so -- gni lon -- ta --  | nis -- si -- mi,_e_il |
 	mio pen -- sie -- ro | cor -- re da        | te.                     | |
 % Remo, tremo, sento
-    Re --  | mo,        | tre -- | mo,     |
-    sen -- |            | to __  | Pro     |
+    Re --  | mo,        | tre -- | mo,
+    sen -- |            | to __    Pro
     fon -- | di e_os -- | cu --  | ri a -- |
     bis -- |            | si     |         |
 }
@@ -84,12 +84,12 @@ chorusMusic = \relative c' {
 }
 chorusOneLyrics = \lyricmode {
 	E per l'a -- | mo -- re che ti   | do per l'a --    | mo -- re che non    |
-	sai. che mi  | fai nau -- fra -- | ga -- re __      | e.                  |
+	sai. che mi  | fai nau -- fra -- | ga -- re __      | e.
 	E per l'a -- | mo -- re che non  | ho, per l'a --   | mo -- re che vor -- |
 	rei, E per   | que -- sto do     | lo -- re. __ _ _ |                     |
 	% Ah___
-	Ah __        |                   |                  |                     |
-	
+	Ah __
+
 	E' -- que -- sto_a | mo -- re che_ho per -- | te che mi    | fa su -- pe -- |
 	rar que -- ste     | ve -- re tem --        | pe -- ste __ |                |
 	                   |                        | Oh, __       |                |
@@ -115,11 +115,11 @@ verseThreeLyrics = \lyricmode {
 	Le mie ma -- ni      | strin -- go -- no  | so -- gni lon -- ta --  | nis -- si -- mi,_e_il |
 	tuo re -- spi -- ro  | sof -- fia su --   | me.                     | |
 % Remo, tremo, sento
-    Re --  | mo,   | tre -- | mo,      |
+    Re --  | mo,   | tre -- | mo,
     sen -- |       | to __  |          |
     Ven -- | to in | fon -- | do al -- |
     cuo -- |       | re.    |          |
-	
+
 }
 
 chorusAfterThreeMusic = \relative c' {
@@ -131,9 +131,9 @@ chorusAfterThreeMusic = \relative c' {
 }
 chorusAfterThreeLyrics = \lyricmode {
 	E per l'a -- | mo -- re che_ho per   | te, che mi   | fa __ _ su -- pe -- |
-	rare         | mil -- le tem -- | pe -- ste __  _   |                  |
+	rare         | mil -- le tem -- | pe -- ste __  _
 	E per l'a -- | mo -- re che ti  | do, per l'a --    | mo -- re che vor -- |
-	rei,         | da que -- sto    | 
+	rei,         | da que -- sto    |
 }
 
 tripl =    \times 2/3 { g8 f ees }
@@ -149,9 +149,9 @@ codaMusic = \relative c' {
    	f2 \endTripl | f2. | r | r | \mBreak
 }
 codaLyrics = \lyricmode {
-	ma -- re __    |                  | E per la  | vi -- ta che non |
+	ma -- re __                         E per la  | vi -- ta che non |
 	c'e che mi     | fai nau fra --   | gare      | in fon -- do_al |
-	cuo -- _ re __ |                  | Tut -- to | que -- sto ti_a |
+	cuo -- _ re __                      Tut -- to | que -- sto ti_a |
 	vra e a        | te sem -- bre -- | ra __     | |
 	               | tut -- to nor -- | ma __     | |
 	               | le               | | |
@@ -229,5 +229,3 @@ codaLyrics = \lyricmode {
 		indent = 0\in
 	}
 }
-
-

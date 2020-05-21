@@ -5,9 +5,9 @@ voice = \relative c'' {
 	\tempo Lively 4 = 144
 	R1  \bar ".|:" R1*2 | \bar ":|."
 	R1*3
-	| r4 r8 e8 gis fis e b 
+	| r4 r8 e8 gis fis e b
 	\bar ".|:"
-	| cis4. e8 cis4 e4 
+	| cis4. e8 cis4 e4
 	| b4. e8 gis8 fis e b
 	| cis4. e8 cis4 e4
 	| b4. b8 gis' fis e b
@@ -19,19 +19,19 @@ voice = \relative c'' {
 }
 
 text = \lyricmode {
-	It's emp -- ty in the 
+	It's emp -- ty in the
 	| val -- ley of your
-	| Heart, the sun it ris -- es 
+	| Heart, the sun it ris -- es
 	| slow -- ly as you
 	| walk a -- way from all the
 	| fears and all the
-	| faults you've left be -- 
+	| faults you've left be --
 	| hind.
-	| The har -- vest left no
+	  The har -- vest left no
 	| food
-	
-	
-	
+
+
+
 }
 
 <<
